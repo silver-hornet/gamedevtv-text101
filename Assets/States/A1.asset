@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09943ac1ce9ac44d58e3999fec0e6739, type: 3}
+  m_Name: A1
+  m_EditorClassIdentifier: 
+  storyText: "You wake up earlier than you expected. You look over at your alarm clock.
+    5am. It\u2019s still dark. You think about sleeping some more, but something tells
+    you you should get up.\n\nWhat do you want to do?\n\n(1) Get up.\n(2) Sleep in."
+  nextStates:
+  - {fileID: 11400000, guid: f89e79e0411da4825b5976082b4925aa, type: 2}
+  - {fileID: 11400000, guid: b7b234b091e744cc8b12b902947b524b, type: 2}
